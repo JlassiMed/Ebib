@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html  xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+<h:head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Mes Emprunts</title>
+<h:outputStylesheet library="css" name="bootstrap.min.css"></h:outputStylesheet>
+</h:head>
+<h:body >
+  <div class="container">
+  <h:form>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <center><h1> Mes Emprunts :</h1></center>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  <table class="table table-bordered table-striped">
+					<thead>
+						<tr>
+						    <th>ID_Livre</th>
+							<th>ID_Adhérent</th>
+							<th>Date Emprunt</th>
+							<th>Date Retour théo</th>
+							<th>Date Retour efc</th>
+							<th>nombre d'avertissements</th>
+						</tr>
+					</thead>
+					<tbody>
+						<ui:repeat var="stud" value="#{mesEmpruntsMB.emprs}">
+							
+							<tr>
+
+								<td>#{stud.id_Liv}</td>  
+								  <td>#{stud.id_Adh}</td>
+								  <td>#{stud.date_empr}</td>
+								  <td>#{stud.date_Ret_Theo}</td>
+								  <td>#{stud.date_Ret_efc}</td>
+								  <td>#{stud.nbr_avert}</td>
+								 
+							</tr>
+						</ui:repeat>
+					</tbody>
+				</table>
+
+  
+  </h:form>
+  </div>
+</h:body>
+</html>

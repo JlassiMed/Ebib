@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
+	<classpathentry kind="con" path="org.eclipse.fx.ide.jdt.core.JAVAFX_CONTAINER"/>
+	<classpathentry combineaccessrules="false" kind="src" path="/GestionBiblio"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/agroal-api-0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/agroal-pool-0.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/antlr-2.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/byte-buddy-1.8.17.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/c3p0-0.9.5.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/cache-api-1.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/classmate-1.3.4.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/dom4j-2.1.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/ehcache-2.10.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/geolatte-geom-1.3.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-agroal-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-c3p0-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-commons-annotations-5.0.4.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-core-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-ehcache-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-envers-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-hikaricp-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-jcache-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-jpamodelgen-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-osgi-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-proxool-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-spatial-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/hibernate-vibur-5.3.7.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/HikariCP-2.5.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/jandex-2.0.5.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/javassist-3.23.1-GA.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/javax.activation-api-1.2.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/javax.interceptor-api-1.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/javax.persistence-api-2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/jboss-logging-3.3.2.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/jboss-transaction-api_1.2_spec-1.1.1.Final.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/jts-core-1.14.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/mchange-commons-java-0.2.11.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/org.osgi.compendium-5.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/org.osgi.core-6.0.0.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/postgresql-42.2.2.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/proxool-0.8.3.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/slf4j-api-1.7.7.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/slf4j-api-1.7.13.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/slf4j-api-1.7.21.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/vibur-dbcp-22.1.jar"/>
+	<classpathentry kind="lib" path="C:/Users/Mohamed/Desktop/New folder/vibur-object-pool-22.1.jar"/>
+	<classpathentry kind="lib" path="C:/wildfly-8.2.0.Final/bin/client/jboss-client.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

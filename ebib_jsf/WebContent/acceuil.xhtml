@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="ISO-8859-1" ?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml"
+ xmlns:h="http://java.sun.com/jsf/html"
+      xmlns:p="http://primefaces.org/ui"
+      xmlns:f="http://java.sun.com/jsf/core"
+      xmlns:ui="http://java.sun.com/jsf/facelets"
+      xmlns:c="http://java.sun.com/jsp/jstl/core">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+<title>Acceuil</title>
+
+ 
+</head>
+<h:body>
+<h:form>
+   
+   
+  <br/>
+  <br/>
+  <br/>
+  <br/>
+  
+ 
+ <h:outputText value="Search :" style="font-weight:bold"/> 
+ <h:inputText  id="searchmc" value="#{acceuilMB.mc}" required="true" />
+                             
+                             <h:commandButton value="rechercher" action="#{acceuilMB.filtrer}" />
+                   			 
+                              <h:commandButton value="Liste Oeuvres" action="#{acceuilMB.tousoeuv}" />
+                               <h:commandButton value="Mes Emprunts" action="#{acceuilMB.mesemprunts}" />
+                             <br/>
+                             <hr/>
+  <br/>
+  <br/>
+<table width="100%" cellspacing="2" cellpadding="0" border="3" align="center" bgcolor="#E6E6FA">
+					<thead>
+						<tr>
+						    <th>ID</th>
+							<th>Titre</th>
+							<th>Categorie</th>
+							<th>Nom Auteur</th>
+							<th>Prenom Auteur</th>
+							<th>nombre du support</th>
+							<th></th>
+							<th></th>
+						</tr>
+					</thead>
+					<tbody>
+						<ui:repeat var="stud" value="#{acceuilMB.oeuvs}">
+							
+							<tr>
+
+								<td>#{stud.id_Oeuv}</td>  
+								  <td>#{stud.titre}</td>
+								  <td>#{stud.categorie.libelle}</td>
+								  <td>#{stud.auteur.nom_aut}</td>
+								  <td>#{stud.auteur.prenom_aut}</td>
+								  <td>#{stud.NB_support}</td>
+								 
+								  
+								  
+								
+								<td> 
+								
+                               <h:commandButton action="#{acceuilMB.emprunter(stud.id_Oeuv)}" value="emprunter" style="margin-top:15px">
+  								<f:ajax execute="@form"  /></h:commandButton>
+  
+								</td> 
+								
+							</tr>
+						</ui:repeat>
+					</tbody>
+					</table>
+
+  
+  </h:form>
+</h:body>
+</html>
